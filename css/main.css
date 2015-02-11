@@ -55,3 +55,23 @@ ul {
     color: #FFFFFF;
     list-style-type: dot;
 }
+
+.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%)
+  background-color: blue;
+}
+
+#sidebar {
+	float: right;
+	padding: 1em;
+	background-color: red;
+}
+
+
+#sidebar2 {
+	float: left;
+	padding: 1em;
+	background-color: green;
+}
