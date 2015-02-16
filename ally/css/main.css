@@ -1,0 +1,88 @@
+
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+	background-image: url("../images/colorful-triangles-background.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	margin:0 auto 0 auto;
+	max-width:60em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#nav{
+	float: right;
+	display: inline;
+  	padding: 2.2em 2.1em;
+}
+
+.logo{
+	max-width: 100px;
+	width: 10%;
+}
+
+.banner{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+li{
+	display: inline;
+	padding: 1em;
+	margin: 1em;
+	color: #fec530;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+h1{
+	padding: .2em 0em 1em 0;
+	border-top: .3em black solid;
+	font-family: 'Vollkorn', serif;
+	font-style: italic;
+	font-size: 3em;
+}
+
+h2{
+	padding: .2em 0 1em 0;
+	border-top: .2em black solid;
+	font-family: 'Vollkorn', serif;
+	font-size: 2em;
+	font-style: italic;
+
+}
+
+h3{
+	border-top: .2em black solid;
+	font-family: 'Vollkorn', serif;
+	font-style: italic;
+}
+
+a{
+	text-decoration: none;
+	color: #fec530;
+}
+
+#colums{
+	float: left;
+	padding: 1em;
+	background-color: #cecece;
+	width: 30%;
+	margin: 1%;
+}
+
+#blocks{
+	padding: 1em;
+	background-color: #cecece;
+	width: 100%;
+	margin: 2em 1%;
+}
+
+footer{
+	text-align: center;
+	width: 100%;
+	margin: 1em 0;
+	background-color: #cecece;
+}
