@@ -1,5 +1,3 @@
-
-
 *{margin:0;padding:0;box-sizing:border-box;}
 
 body{
@@ -11,7 +9,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
-#nav{
+nav{
 	float: right;
 	display: inline;
   	padding: 2.2em 2.1em;
@@ -70,7 +68,7 @@ a{
 	color: #fec530;
 }
 
-#colums{
+.colums{
 	float: left;
 	padding: 1em;
 	background-color: #cecece;
@@ -78,7 +76,7 @@ a{
 	margin: 1%;
 }
 
-#blocks{
+.blocks{
 	padding: 1em;
 	background-color: #cecece;
 	width: 100%;
