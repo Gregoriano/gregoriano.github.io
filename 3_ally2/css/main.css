@@ -1,5 +1,6 @@
 *{margin:0;padding:0;box-sizing:border-box;}
-
+section+section { margin-top:4em; }
+div.columns+div { margin-left:1.5%; }
 body{
 	background-image: url("../images/colorful-triangles-background.jpg");
 	background-size: cover;
@@ -72,15 +73,14 @@ a{
 	float: left;
 	padding: 1em;
 	background-color: #cecece;
-	width: 30%;
-	margin: 1%;
+	width: 32.33%;
 }
 
 .blocks{
 	padding: 1em;
 	background-color: #cecece;
 	width: 100%;
-	margin: 2em 1%;
+	margin: 2em 0;
 }
 
 footer{
