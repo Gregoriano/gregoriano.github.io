@@ -1,0 +1,94 @@
+#container {
+	margin: 0 auto;
+	max-width: 900px;
+	width: 95%;
+	background-color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.splash {
+	height:100vh; /* viewport height is the measurement of the size of the display. if you make your window smaller on a desktop, you also decrease the viewport size. vh units are interpreted as a % of the viewport. 100vh = 100% of the viewport height. Avoid using vh values over 100. */
+}
+
+.header {
+	position: fixed;
+	background-color: #FFFFFF;
+}
+
+.logo {
+	display: inline;
+	float: left;
+}
+
+nav {
+	background: #000000;
+	display: inline;
+	float: right;
+}
+
+nav a {
+	display: inline;
+	float: right;
+	padding: .3em;
+	color: #ffffff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+.keymessage {
+	padding: .5em 0 .5em 0;
+	font-size: 4.5em;
+	text-align: center;
+	font-family: 'Quattrocento', serif;
+}
+
+.teaser {
+	display: inline;
+	margin-top: 4em;
+	float: left;
+	width: 33.3%;
+	margin: 0;
+	background-color: #B0B0B0;
+ }
+
+.teaserpic {
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+h2{
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Quattrocento', serif;
+}
+
+.teaserinfo {
+	text-align: center;
+}
+
+.perfil {
+	margin: 1em 0 0 0;
+}
+
+.perfilpic {
+	display: inline;
+	float: left;
+	width: 33.3%;
+}
+
+.quote {
+	display: inline;
+	float: right;
+	width: 66.6%;
+	font-size: 2em;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
