@@ -141,6 +141,19 @@ section{
 	width: 80%;
 }
 
+footer {
+	margin-top: 2em;
+}
+
+.callforcontact {
+	text-align: center;
+	font-size: 2em	
+}
+
+.socialmedia {
+	text-align: center;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
