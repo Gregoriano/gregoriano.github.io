@@ -1,9 +1,13 @@
-#container {
+ #container {
 	margin: 0 auto;
 	max-width: 900px;
 	width: 95%;
 	background-color: #FFFFFF;
 	font-family: 'Montserrat', sans-serif;
+}
+
+*{
+	box-sizing: border-box;
 }
 
 .splash {
@@ -16,18 +20,15 @@
 }
 
 .logo {
-	display: inline;
 	float: left;
 }
 
 nav {
 	background: #000000;
-	display: inline;
 	float: right;
 }
 
 nav a {
-	display: inline;
 	float: right;
 	padding: .3em;
 	color: #ffffff;
@@ -42,17 +43,19 @@ nav a {
 	font-family: 'Quattrocento', serif;
 }
 
+.teasercontainer {
+	margin: 0 0 4em 0;
+}
+
 .teaser {
-	display: inline;
-	margin-top: 4em;
 	float: left;
 	width: 33.3%;
-	margin: 0;
 	background-color: #B0B0B0;
  }
 
 .teaserpic {
 	display: block;
+	margin-top: 0.5em;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
@@ -65,18 +68,23 @@ h2{
 
 .h2teaser{
 	text-align: center;
+	margin: 0.3em 0 0.2em 0;
 }
 
 .teaserinfo {
 	text-align: center;
+	margin: 0 0 1em 0;
 }
 
-.perfil {
-	margin: 1em 0 0 0;
+section{
+	margin-bottom: 5em;
+}
+
+#perfilcontainer {
+	margin: 4em 0 0 0;
 }
 
 .perfilpic {
-	display: inline;
 	float: left;
 	width: 33.3%;
 }
@@ -94,24 +102,28 @@ h2{
 	width: 50%;
 	background-color: #B0B0B0;
 	margin: em;
-	box-sizing: border-box;
 }
 
-.privadaspic {
-	display: inline;
+.subs {
+	display: block;
+}
+
+#privadas {
+
+}
+
+.bigpic {
 	float: left;
 	width: 33.3%;
 }
 
 .testimonialblock {
-	display: inline;
 	float: left;
 	width: 66.6%;
 }
 
 .testimonial {
 	background-color: #B0B0B0;
-	display: inline;
 	float: left;
 	width: 100%;
 }
@@ -119,10 +131,12 @@ h2{
 .testimonialpic {
 	border-radius: 50%;
 	width: 20%;
+	float: left;
+	display: block;
+	margin-bottom: 0.5em;
 }
 
 .testimonialtext {
-	display: inline;
 	float: left;
 	width: 80%;
 }
