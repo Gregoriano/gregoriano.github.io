@@ -6,6 +6,11 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
+body {
+	font-size: 16px;
+	line-height: 1.2;
+}
+
 *{
 	box-sizing: border-box;
 }
@@ -19,8 +24,9 @@
 	background-color: #FFFFFF;
 }
 
-.logo {
+#logo {
 	float: left;
+	width: 15%;
 }
 
 nav {
@@ -29,6 +35,7 @@ nav {
 }
 
 nav a {
+	font-size: 1em;
 	float: right;
 	padding: .3em;
 	color: #ffffff;
@@ -38,9 +45,10 @@ nav a {
 
 .keymessage {
 	padding: .5em 0 .5em 0;
-	font-size: 4.5em;
+	font-size: 3.5em;
 	text-align: center;
 	font-family: 'Quattrocento', serif;
+	line-height: 1.125;
 }
 
 .teasercontainer {
@@ -50,7 +58,7 @@ nav a {
 .teaser {
 	float: left;
 	width: 33.3%;
-	background-color: #B0B0B0;
+	padding-left: 1%;
  }
 
 .teaserpic {
@@ -76,6 +84,13 @@ h2{
 	margin: 0 0 1em 0;
 }
 
+.teaserlink {
+	border: 1px black solid;
+	text-align: center;
+	text-decoration: none;
+	color: green;
+}
+
 section{
 	margin-bottom: 5em;
 }
@@ -93,15 +108,42 @@ section{
 	display: inline;
 	float: right;
 	width: 66.6%;
-	font-size: 2em;
+	font-size: 1.5em;
+	padding: 0 1em 2em 1em;
+}
+
+.cv {
+	padding: 0 1em 2em 1em;
+}
+
+.h2cyt {
+	padding: 2em 0 0 0 ;
+}
+
+h3 {
+	font-size: 1.3em;
 }
 
 .cursos {
 	display: inline;
 	float: left;
 	width: 50%;
-	background-color: #B0B0B0;
-	margin: em;
+	padding: 1em 2em 1em 0;
+}
+
+span {
+	text-decoration: italic;
+}
+
+.cta1 {
+	border: .2em #000000 solid;
+	border-radius:.2em;
+	color:#fff;
+	font-weight:400;
+	padding:1.5em 0;
+	text-align:center;
+	text-decoration:none;
+	width: 17em;
 }
 
 .subs {
@@ -120,6 +162,7 @@ section{
 .testimonialblock {
 	float: left;
 	width: 66.6%;
+	padding: 0 1em 2em 1em;
 }
 
 .testimonial {
@@ -134,6 +177,7 @@ section{
 	float: left;
 	display: block;
 	margin-bottom: 0.5em;
+	padding: .5em;
 }
 
 .testimonialtext {

@@ -1,0 +1,26 @@
+
+@media only screen and (max-width: 885px) {
+	.teaser {
+		float: none;
+		width: auto;
+	}
+	
+	.teaserpic {
+		max-width: 20%;
+		margin: 0;
+	}
+
+	.teaserblock {
+		float: right;
+	}
+}
+
+
+@media only screen and (max-width: 907px) {
+	nav {
+		display: block;
+		float: none;
+		text-align: center;
+		margin: 0;
+	}
+}
