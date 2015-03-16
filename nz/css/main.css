@@ -1,29 +1,12 @@
- #container {
-	margin: 0 auto;
-	max-width: 900px;
-	width: 95%;
-	background-color: #FFFFFF;
-	font-family: 'Montserrat', sans-serif;
-}
-
-body {
-	font-size: 16px;
-	line-height: 1.2;
-}
-
 *{
 	box-sizing: border-box;
 }
-
-.splash {
-	height:100vh; /* viewport height is the measurement of the size of the display. if you make your window smaller on a desktop, you also decrease the viewport size. vh units are interpreted as a % of the viewport. 100vh = 100% of the viewport height. Avoid using vh values over 100. */
+body {
+	color:#222;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.2em;
 }
-
-.header {
-	position: fixed;
-	background-color: #FFFFFF;
-}
-
 #logo {
 	float: left;
 	width: 15%;
@@ -55,36 +38,43 @@ nav a {
 	margin: 0 0 4em 0;
 }
 
-.teaser {
+#teaser>div {
 	float: left;
 	width: 33.3%;
 	padding-left: 1%;
  }
-
-.teaserpic {
+#teaser img {
 	display: block;
 	margin-top: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
 }
-
-h2{
-	font-size: 2em;
-	font-family: 'Quattrocento', serif;
-}
-
-.h2teaser{
+#teaser h2 {
 	text-align: center;
 	margin: 0.3em 0 0.2em 0;
 }
 
-.teaserinfo {
+#teaser p {
 	text-align: center;
 	margin: 0 0 1em 0;
 }
 
-.teaserlink {
+section{
+	margin-bottom: 5em;
+}
+footer {
+	margin-top: 2em;
+}
+h2{
+	font-size: 2em;
+	font-family: 'Quattrocento', serif;
+}
+h3 {
+	font-size: 1.3em;
+}
+a { }
+a.teaserlink {
   	text-align: center;
   	text-decoration: none;
   	text-transform: uppercase;
@@ -100,11 +90,6 @@ a.teaserlink:hover {
 	color: white;
 	background-color: orange;
 }
-
-section{
-	margin-bottom: 5em;
-}
-
 #perfilcontainer {
 	margin: 4em 0 0 0;
 }
@@ -130,9 +115,7 @@ section{
 	padding: 2em 0 0 0 ;
 }
 
-h3 {
-	font-size: 1.3em;
-}
+
 
 .cursos {
 	display: inline;
@@ -184,10 +167,11 @@ span {
 	width: 80%;
 }
 
-footer {
-	margin-top: 2em;
-}
 
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
 .callforcontact {
 	text-align: center;
 	font-size: 2em	
