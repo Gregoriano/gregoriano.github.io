@@ -1,8 +1,15 @@
 
-@media only screen and (max-width: 885px) {
-	.teaser {
+@media only screen and (max-width: 881px) {
+	#teaser div {
 		float: none;
 		width: auto;
+		padding: 0 2em 0 2em;
+	}
+
+	#teaser p {
+		margin: 0 auto;
+		text-align: center;
+		max-width: 60%;
 	}
 	
 	.teaserpic {

@@ -5,7 +5,6 @@ body {
 	color:#222;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
-	line-height: 1.2em;
 }
 #logo {
 	float: left;
@@ -19,11 +18,17 @@ nav {
 
 nav a {
 	font-size: 1em;
-	float: right;
-	padding: .3em;
+	float: left;
+	padding: .3em .9em;
 	color: #ffffff;
 	text-decoration: none;
 	border-right: 1px solid #fff;
+	transition: .2s ease-out;
+}
+
+nav a:hover {
+	color: white;
+	background-color: orange;
 }
 
 .keymessage {
@@ -53,11 +58,15 @@ nav a {
 #teaser h2 {
 	text-align: center;
 	margin: 0.3em 0 0.2em 0;
+	line-height: 1.3em;
+
 }
 
 #teaser p {
-	text-align: center;
+	text-align: none;
 	margin: 0 0 1em 0;
+	line-height: 1.3em;
+
 }
 
 section{
@@ -69,82 +78,114 @@ footer {
 h2{
 	font-size: 2em;
 	font-family: 'Quattrocento', serif;
+	line-height: 1.3em;
 }
 h3 {
 	font-size: 1.3em;
+	line-height: 1.3em;
 }
-a { }
+a { 
+}
+
 a.teaserlink {
   	text-align: center;
   	text-decoration: none;
   	text-transform: uppercase;
   	letter-spacing: 0.1em;
   	color: #000000;
-  	padding: .4em 3.5em;
+	transition: .2s ease-out;
+	padding: .4em 3.5em;
   	border: 1.5px solid #2a2a2a;
   	display: inline-block;
-  	transition: .2s ease-out;
+  	display: block;
+  	width: 50%;
+  	margin: 1em auto 0 auto;
 }
 
 a.teaserlink:hover {
 	color: white;
 	background-color: orange;
 }
+
+
 #perfilcontainer {
 	margin: 4em 0 0 0;
 }
 
-.perfilpic {
+#perfil img {
+	display: inline;
 	float: left;
-	width: 33.3%;
+	width: 66.66%;
+}
+
+#perfil h2 {
+	float: left;
+	padding: 0 0 0 .7em;
 }
 
 .quote {
-	display: inline;
-	float: right;
-	width: 66.6%;
+	display: block;
+	float: none;
+	width: 33.33%;
 	font-size: 1.5em;
 	padding: 0 1em 2em 1em;
+	line-height: 1.2em;
 }
 
-.cv {
-	padding: 0 1em 2em 1em;
+#perfil ul {
+	width: 66.66%;
+	float: none;
+	padding: 0 1em 2em 1.5em;
+	line-height: 1.3em;
 }
 
-.h2cyt {
+#cursos h2 {
 	padding: 2em 0 0 0 ;
+	line-height: 1.3em;
 }
-
-
 
 .cursos {
-	display: inline;
 	float: left;
 	width: 50%;
 	padding: 1em 2em 1em 0;
 }
 
-span {
-	text-decoration: italic;
-}
-
-.subs {
-	display: block;
-}
-
-#privadas {
-
+.info h2 {
+	float: left;
+	padding: 0 0 0 .7em;
 }
 
 .bigpic {
 	float: left;
-	width: 33.3%;
+	width: 66.66%;
+}
+
+blockquote {
+	color: rgba(255,255,255,1);
+	font-family: Georgia, serif;
+	font-size: 1.2em;
+	font-style: italic;
+	line-height: 1.3em;
+	padding: 1em 1em .3em 1em;
+	position: relative;
+	text-align:justify;
+	float: left;
+	width: 80%;
+}
+
+cite {
+	color: rgba(255,255,255,.54);
+	display: inline;
+	float:right;
+	font-size: 1.25em;
+	font-weight:100;
+	margin: 0em 1em 0em 0em;
 }
 
 .testimonialblock {
-	float: left;
-	width: 66.6%;
-	padding: 0 1em 2em 1em;
+	float: none;
+	width: 100%;
+	padding: 0;
 }
 
 .testimonial {
@@ -166,7 +207,6 @@ span {
 	float: left;
 	width: 80%;
 }
-
 
 .container {
 	margin: 0 auto;
