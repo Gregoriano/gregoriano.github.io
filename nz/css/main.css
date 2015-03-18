@@ -130,6 +130,7 @@ a.teaserlink:hover {
 	width: 100%;
 	float: none;
 	line-height: 1.3em;
+	list-style-type:disc;
 }
 
 #cursos h2 {
