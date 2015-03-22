@@ -11,6 +11,10 @@ body {
 	width: 15%;
 }
 
+section {
+	padding-bottom: 3em;
+} 
+
 nav {
 	background: #000000;
 	float: right;
@@ -31,7 +35,7 @@ nav a:hover {
 	background-color: orange;
 }
 
-.keymessage {
+#keymessage {
 	padding: .5em 0 .5em 0;
 	font-size: 3.5em;
 	text-align: center;
@@ -56,12 +60,11 @@ nav a:hover {
 	border-radius: 50%;
 }
 #teaser h2 {
-	text-align: center;
+	text-align: none;
 	margin: 0.3em 0 0.2em 0;
 	line-height: 1.3em;
 
 }
-
 #teaser p {
 	text-align: none;
 	margin: 0 0 1em 0;
@@ -109,28 +112,24 @@ a.teaserlink:hover {
 
 
 #perfil img {
-	display: inline;
 	float: left;
-	width: 66.66%;
-}
-
-#perfil h2 {
-	float: left;
+	width: 33.33%;
 }
 
 .quote {
-	display: inline;
-	float: none;
-	width: 33.33%;
+	float: left;
+	width: 66.66%;
 	font-size: 1.5em;
 	line-height: 1.2em;
+	padding:  0 0 0 1em;
 }
 
 #perfil ul {
-	width: 100%;
-	float: none;
+	width: 45%;
+	float: left;
 	line-height: 1.3em;
 	list-style-type:disc;
+	padding: 2.7em;	
 }
 
 #cursos h2 {
@@ -138,26 +137,28 @@ a.teaserlink:hover {
 	line-height: 1.3em;
 }
 
-.cursos {
+#cursos img {
 	float: left;
+	width: 33.33%;
+}
+
+.cursos {
+	display: block;
+	float: none;
 	width: 50%;
 	padding: 1em 2em 1em 0;
 }
 
-.info h2 {
+.sectionpic {
+	display: inline;
 	float: left;
-	padding: 0 0 0 .7em;
-}
-
-.bigpic {
-	float: left;
-	width: 66.66%;
+	width: 33.33%;
 }
 
 blockquote {
 	color: rgba(255,255,255,1);
 	font-family: Georgia, serif;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-style: italic;
 	line-height: 1.3em;
 	padding: 1em 1em .3em 1em;
@@ -168,7 +169,7 @@ blockquote {
 }
 
 cite {
-	color: rgba(255,255,255,.54);
+	color: #484848);
 	display: inline;
 	float:right;
 	font-size: 1.25em;
@@ -179,11 +180,11 @@ cite {
 .testimonialblock {
 	float: none;
 	width: 100%;
-	padding: 0;
+	padding: 5em 0 0 0;
 }
 
 .testimonial {
-	background-color: #B0B0B0;
+	background-color: orange;
 	float: left;
 	width: 100%;
 }
@@ -207,7 +208,7 @@ cite {
 	max-width: 1200px;
 }
 .callforcontact {
-	text-align: center;
+	text-align: none;
 	font-size: 2em	
 }
 
