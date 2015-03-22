@@ -1,3 +1,17 @@
+/************** HAMBURGER MENU *****************/
+
+@media only screen and (max-width: 900px) {
+	.mobile.nav {
+		display: block;
+		position: fixed; top: 0; left: 0; right: 0;
+	}
+	nav {
+		display: none;
+	}
+}
+
+/************** HAMBURGER MENU *****************/
+
 
 @media only screen and (max-width: 885px) {
 	#teaser div {
@@ -20,6 +34,7 @@
 	.teaserblock {
 		float: right;
 	}
+
 }
 
 

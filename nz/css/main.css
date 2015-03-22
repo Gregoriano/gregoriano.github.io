@@ -2,9 +2,19 @@
 	box-sizing: border-box;
 }
 body {
-	color:#222;
-	font-family: 'Montserrat', sans-serif;
+	color: #222;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
+	background-image: url("../images/.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto 0 auto;
+	max-width:60em;
+	
+}
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
 }
 #logo {
 	float: left;
@@ -35,6 +45,45 @@ nav a:hover {
 	background-color: orange;
 }
 
+/************** HAMBURGER MENU *****************/
+
+.mobile-nav {
+	display: none;
+}
+
+.menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
+}
+ 
+.menu-btn span {
+	display: block;
+	width: 19px;
+	height: 3px;
+	margin: 4px 0;
+	background: rgb(0,0,0);
+	z-index: 99;
+}
+ 
+.responsive-menu{
+	display: none;
+}
+ 
+.expand {
+	display: block !important; 
+}
+
+/************** HAMBURGER MENU *****************/
+
+
 #keymessage {
 	padding: .5em 0 .5em 0;
 	font-size: 3.5em;
@@ -42,34 +91,32 @@ nav a:hover {
 	font-family: 'Quattrocento', serif;
 	line-height: 1.125;
 }
-
-.teasercontainer {
-	margin: 0 0 4em 0;
-}
-
 #teaser>div {
 	float: left;
 	width: 33.3%;
 	padding-left: 1%;
+	min-height: 21em;
+	position: relative;
  }
 #teaser img {
 	display: block;
-	margin-top: 0.5em;
+	margin-top: 1.5em;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 50%;
 }
-#teaser h2 {
-	text-align: none;
-	margin: 0.3em 0 0.2em 0;
+.title {
+	font-size: 2em;
+	font-family: 'Quattrocento', serif;
 	line-height: 1.3em;
-
 }
 #teaser p {
-	text-align: none;
-	margin: 0 0 1em 0;
 	line-height: 1.3em;
-
+}
+#teaser a.teaserlink {
+  	text-align: center;
+	position: absolute;
+  	bottom: 0;
 }
 
 section{
@@ -79,7 +126,8 @@ footer {
 	margin-top: 2em;
 }
 h2{
-	font-size: 2em;
+	font-size: 3em;
+	font-style: italic;
 	font-family: 'Quattrocento', serif;
 	line-height: 1.3em;
 }
@@ -87,8 +135,7 @@ h3 {
 	font-size: 1.3em;
 	line-height: 1.3em;
 }
-a { 
-}
+
 
 a.teaserlink {
   	text-align: center;
@@ -110,6 +157,10 @@ a.teaserlink:hover {
 	background-color: orange;
 }
 
+li {
+	line-height: 1.3em;
+	margin-top: 1em
+}
 
 #perfil img {
 	float: left;
@@ -125,28 +176,45 @@ a.teaserlink:hover {
 }
 
 #perfil ul {
-	width: 45%;
+	width: 66.66%;
 	float: left;
 	line-height: 1.3em;
-	list-style-type:disc;
-	padding: 2.7em;	
+	list-style-type: disc;
+	margin: 1.7em 0 0 0;
+	padding: 0 0 0 2.7em;
 }
 
-#cursos h2 {
-	padding: 2em 0 0 0 ;
+
+#clases div {
+	float: left;
+}
+#clases h2 {
 	line-height: 1.3em;
 }
-
-#cursos img {
+#clases img {
+	float: left;
+	width: 66.66%;
+}
+#clases .quote {
 	float: left;
 	width: 33.33%;
+} 
+#clases p {
+	line-height: 1.3em;
+	margin-top: .4em
+
+}
+.cursos {
+	margin: 2em 0 0 0;
+	padding: 2em 0 0 0;
+	width: 50%;
+	min-height: 25em;
+	position: relative;
 }
 
-.cursos {
-	display: block;
-	float: none;
-	width: 50%;
-	padding: 1em 2em 1em 0;
+.cursos a.teaserlink {
+	position: absolute;
+	bottom: 0;
 }
 
 .sectionpic {
@@ -156,7 +224,7 @@ a.teaserlink:hover {
 }
 
 blockquote {
-	color: rgba(255,255,255,1);
+	color: #222;
 	font-family: Georgia, serif;
 	font-size: 1.5em;
 	font-style: italic;
@@ -169,7 +237,7 @@ blockquote {
 }
 
 cite {
-	color: #484848);
+	color: #484848;
 	display: inline;
 	float:right;
 	font-size: 1.25em;
@@ -178,15 +246,16 @@ cite {
 }
 
 .testimonialblock {
-	float: none;
 	width: 100%;
-	padding: 5em 0 0 0;
+	padding: 0 auto;
+	margin: 5em 0 0 0;
 }
 
 .testimonial {
-	background-color: orange;
 	float: left;
 	width: 100%;
+	padding: 1em 3em;
+	margin: 1em 0 0 0;
 }
 
 .testimonialpic {
@@ -194,7 +263,7 @@ cite {
 	width: 20%;
 	float: left;
 	display: block;
-	margin-bottom: 0.5em;
+	margin: 1em 0 0 0;
 	padding: .5em;
 }
 
@@ -203,17 +272,19 @@ cite {
 	width: 80%;
 }
 
-.container {
-	margin: 0 auto;
-	max-width: 1200px;
+#contacto div{
 }
+
 .callforcontact {
-	text-align: none;
-	font-size: 2em	
+	font-size: 1.5em	
 }
 
 .socialmedia {
+	margin: 2em 0 0 0;
 	text-align: center;
+}
+footer {
+	text-align: center:
 }
 
 .clearfix:after {

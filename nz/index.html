@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Natalia Zambrano Yoga Zurich</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<meta name="viewport" content="width=device-width, initialscale=1">
 	<link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+	<title>Natalia Zambrano Yoga Zurich</title>
 </head>
 
 <body>
@@ -16,12 +17,32 @@
 		<header class="clearfix">
 			<img id="logo" src="images/logo.png">
 			<nav>
-				<a href="#">Perfil</a>
-				<a href="#">Clases y talleres</a>
-				<a href="#">Clases privadas</a>
+				<a href="#perfil">Perfil</a>
+				<a href="#clases">Clases y talleres</a>
+				<a href="#privadas">Clases privadas</a>
 				<a href="#">Yoga en la empresa</a>
-				<a href="#">Contacto</a>
+				<a href="#contacto">Contacto</a>
 			</nav>
+
+			<div class="mobile-nav">
+     			<div class="menu-btn" id="menu-btn">
+				<div></div>
+				<span></span>
+				<span></span>
+				<span></span>
+     		</div>
+ 
+    		<div class="responsive-menu">
+        		<ul>
+           			<li><a href="#perfil">Perfil</a></li>
+           			<li><a href="#clases">Clases y talleres</a></li>
+           			<li><a href="#privadas">Clases privadas</a></li>
+           			<li><a href="#">Yoga en la empresa</a></li>
+           			<li><a href="#contacto">Contacto</a></li>
+        		</ul>
+     		</div>
+		</div>
+
 		</header>
 
 		<h1 id="keymessage">Yoga en Espa&ntilde;ol en Zurich &mdash; diez a&ntilde;os de experiencia para m&aacute;s juventud, bienestar y felicidad</h1>
@@ -30,34 +51,35 @@
 			<div>	
 				<img src="http://placehold.it/160x160">
 				<div class="teaserblock">
-					<h2>Cursos y talleres</h2>			
+					<p class="title">Cursos y talleres</p>			
 					<p>Informate sobre nuestros cursos regulares y workshops en temas especificos.</p>
-					<a href="#" class="teaserlink">M&Aacute;s</a>
+					<a href="#clases" class="teaserlink">M&Aacute;s</a>
 				</div>
 			</div>	
 			<div>	
 				<img src="http://placehold.it/160x160">
-				<h2>Clases privadas</h2>			
+				<p class="title">Clases privadas</p>			
 				<p>Clases especialmente disenadas para tus necesidades, tu progreso y tu bienestar &mdash; donde quieres tu.</p>
-				<a href="#" class="teaserlink">M&Aacute;s</a>
+				<a href="#privadas" class="teaserlink">M&Aacute;s</a>
 			</div>	
 			<div>
 				<img src="http://placehold.it/160x160">
-				<h2>Yoga en la empresa</h2>			
+				<p class="title">Yoga en la empresa</p>			
 				<p>Instruciones cortas y efectivas para manejar el estres y potenciar las habilidades personales y laborales.</p>
 				<a href="#" class="teaserlink">M&Aacute;s</a>
 			</div>	
 		</section>
 
 		<section id="perfil" class="clearfix">
+			<h2>Natalia Zambrano</h2>
 			<img src="images/perfilpic.jpeg">
 			<div class="quote">
 				&laquo;Mi formacion profesional y experiencia de 10 a&ntilde;os como Instructora de Yoga me permite ser sensible a como los alumnos van descubriendose a si mismos, desarrollandose y abri&eacute;ndose a nuevas experiencias &mdash; este es el espacio que busco crear en mis clases.&raquo;
+			</div>
 			<cite>
 				&mdash; Natalia Zambrano, instructora de Yoga y psicologa
 			</cite>
-			</div>
-
+			
 			<ul>
 				<li>Instructora de Hatha-Yoga, con Especializacion en Tecnicas Iyengar, Academia Chilena de Yoga.</li>
 				<li>10 anos de Experiencia en la Ensenanza del Yoga, Universidad del Desarrollo y Paramatma Center. Instructora de Yoga para Ninos, Yogashala Chile.</li>
@@ -68,34 +90,35 @@
 			</ul>
 		</section>
 
-		<section id="cursos" class="clearfix">
+		<section id="clases" class="clearfix">
 				<h2>Clases</h2>
 				<img src="images/cursosytalleres.jpg">
 				<p class="quote">Tenemos clases en distintos barrios de Zurich, agregando mas lugares pronto en el Kreis 1, Kreis 4, Kreis 5 y en el Seefeld &mdash;  y donde quiera usted. Contactenos para saber mas.</p>	
 				<div class="clearfix">
 					<div class="cursos">
 						<h3>Clases en Oerlikon</h3>
-						<p>Eggbühlstrasse 4, 80xx Oerlikon</p>
-						<p><span>Lunes, 18.00-19.30</span></p>
-						<p><span>Martes, 18.00-19.30</span></p>
-						<p><span>Miercoles, 18.00-19.30</span></p>
-						<p><span>Jueves, 18.00-19.30</span></p>
+						<p>Eggbühlstrasse 20, 8050 Oerlikon</p>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2699.7724460884474!2d8.5429829!3d47.4163795!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a9006384d29%3A0x71c997ec11179111!2sEggb%C3%BChlstrasse+20%2C+8050+Z%C3%BCrich!5e0!3m2!1sde!2sch!4v1427054080893" width="95%" frameborder="0" style="border:0"></iframe>		
+						<p><span>Lunes y Miercoles, 10.00-11.30</span></p>
+						<p><span>Martes y Jueves, 18.00-19.30</span></p>
 						<p>Curso ultricies arcu. Curabitur blandit vitae. Curabitur blandit vitae. Curabitur blandit vitae.Curabitur blandit vitae. Curabitur blandit vitae.</p>
 						<a class="teaserlink" href="mailto:nzambranob@gmail.com?subject=Subscribir para Oerlikon">Subscribir</a>
 					</div>
 
 					<div class="cursos">
 						<h3>Clases en Kreis 3</h3>
-						<p>Martes, 18.00-19.30, Eggbühlstrasse 4</p>
+						<p>Zentralstrasse 140, 8003 Zürich</p>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2701.8678374678734!2d8.5151539!3d47.375497900000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a23ae530ce1%3A0x9bbd53e171f0e627!2sZentralstrasse+140%2C+8003+Z%C3%BCrich!5e0!3m2!1sde!2sch!4v1427054174986" width="95%" frameborder="0" style="border:0"></iframe>
+						<p>Martes, 18.00-19.30</p>
 						<p>Curso ultricies arcu. Curabitur blandit vitae. Curabitur blandit vitae. Curabitur blandit vitae.Curabitur blandit vitae. Curabitur blandit vitae.</p>
 						<a class="teaserlink" href="mailto:nzambranob@gmail.com?subject=Subscribir para Kreis 3">Subscribir</a>
 					</div>
 				</div>
 		</section>
 
-		<section class"clearfix">
+		<section id="privadas" class="clearfix">
 			<h2>Clases privadas</h2>
-			<img class="sectionpic" src="http://placehold.it/450x300">
+			<img class="sectionpic" src="images/cursosytalleres.jpg">
 			<div class="quote">
 				Usted quiere hacer yoga, pero no tiene tiempo de trasladarse a una escuela y prefiere clases particulares a precios accesibles, reuna a un grupo de personas interesadas y contactenos, nosotros nos encargamos de los implementos necesarios.
 			</div>
@@ -130,18 +153,35 @@
 			</div>
 		</section>
 
-		
-
-		<footer>
+		<section id="contacto">
+			<div>
 			<h2>Contacto</h2>
 			<p class="callforcontact">Quiere instruction? Por favor contactenos: <a href="mailto:nzambranob@gmail.com?subject=Quiero veinte a&ntilde;os m&aacute;s de juventud">yogainzurich@gmail.com</p>
 			<div class="socialmedia">
-				<a href="http://ch.linkedin.com/pub/natalia-zambrano/b1/56b/ba9" target="_blank"><img src="images/linkedin.png" width=50px alt="linkedin profile">
-				<a href="http://twitter.com" target="_blank"><img src="images/twitter.png" width=50px alt="twitter profile">
-				<a href="https://www.facebook.com/natalia.z.bahamonde" target="_blank"><img src="images/facebook.png" width=50px alt="facebook profile">
+				<a href="http://ch.linkedin.com/pub/natalia-zambrano/b1/56b/ba9" target="_blank"><img src="images/linkedin.png" width=50px alt="linkedin profile"></a>
+				<a href="http://twitter.com" target="_blank"><img src="images/twitter.png" width=50px alt="twitter profile"></a>
+				<a href="https://www.facebook.com/natalia.z.bahamonde" target="_blank"><img src="images/facebook.png" width=50p
+				x alt="facebook profile"></a>
 			</div>
-		</footer>
+			</div>
+		</section>
 
+		<footer>
+			Copyright Natalia Zambrano, Zurich
+		</footer>
+		<script type="text/javascript">
+			jQuery(function($){
+    			$( '.menu-btn' ).click(function(){
+    	     	$('.responsive-menu').toggleClass('expand')
+    	     	})
+        	 })
+    	
+    	 		$( '.close-btn' ).click(function(){
+    			$('.responsive-menu').removeClass('expand')
+    			$('.menu-btn').removeClass('btn-none')
+    			})
+  			})
+ 		</script>
 	</div>
 </body>
 </html>
