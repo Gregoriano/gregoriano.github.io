@@ -103,7 +103,7 @@ nav a:hover {
 
 
 #keymessage {
-	padding: .5em 0 .5em 0;
+	padding: .5em .5em .5em .5em;
 	font-size: 3.5em;
 	text-align: center;
 	font-family: 'Quattrocento', serif;
@@ -178,10 +178,6 @@ h3 {
 	background-color: orange;
 }
 
-li {
-	line-height: 1.3em;
-	margin-top: 1em
-}
 
 /************** PERFIL *****************/
 
@@ -191,7 +187,7 @@ li {
 	width: 33.33%;
 }
 
-.quote {
+.quote1	 {
 	float: left;
 	width: 66.66%;
 	font-size: 1.5em;
@@ -206,6 +202,10 @@ li {
 	list-style-type: disc;
 	margin: 1.7em 0 0 0;
 	padding: 0 0 0 2.7em;
+}
+li {
+	line-height: 1.3em;
+	margin-top: 1em
 }
 
 /************** CLASES *****************/
@@ -280,7 +280,7 @@ cite {
 	float:right;
 	font-size: 1.25em;
 	font-weight:100;
-	margin: 0em 1em 0em 0em;
+	margin: .5em 1em 0em 0em;
 }
 
 .testimonialblock {
