@@ -1,5 +1,5 @@
 
-@media only screen and (min-width:854px) and (max-width: 900px) {
+@media only screen and (min-width:852px) and (max-width: 900px) {
 	.mobile-nav {
 		display: block;
 		position: fixed; top: 0; left: 0; right: 0;
@@ -10,8 +10,35 @@
 }
 
 
+@media only screen and (min-width: 801px) and (max-width: 851px) {
+	.mobile-nav {
+		display: block;
+		position: fixed; top: 0; left: 0; right: 0;
+	}
+	nav {
+		display: none;
+	}
+	#teaser>div {
+		min-height: 28em;
+		position: relative;
+	}
+	#teaser p.title{
+		text-align: center;
+	}
+	#teaser p.byline{
+		position: absolute;
+		top: 19em;
+	}
+	#teaser a.teaserlink {
+		position: absolute;
+		bottom: 0;	
+		left: 25%;
+		transform: translateX(-50%);
+	}
+}
 
-@media only screen and (min-width: 1px) and (max-width: 853px) {
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
 	.mobile-nav {
 		display: block;
 		position: fixed; top: 0; left: 0; right: 0;
@@ -25,34 +52,31 @@
 		font-size: 3em;
 		line-height: 1.125;
 	}
-	#teaser div {
-		float: none;
-		width: auto;
-		padding: 0 2em 0 2em;
-		min-height: 18.5em;
-		position: relative;
-	}
-	#teaser img {
-		margin-top: 2.7em;
-	}
-
-	#teaser p {
-		margin: 0 auto;
-		text-align: center;
-		max-width: 60%;
-	}
-	.teaserpic {
-		max-width: 40%;
-		margin: 0;
-	}
 	h2{
 		font-size: 2.5em;
+	}
+	#teaser>div {
+		min-height: 28em;
+		position: relative;
+	}
+	#teaser p.title{
+		text-align: center;
+	}
+	#teaser p.byline{
+		position: absolute;
+		top: 19em;
+	}
+	#teaser a.teaserlink {
+		position: absolute;
+		bottom: 0;	
+		left: 25%;
+		transform: translateX(-50%);
 	}
 	.quote1	 {
 		font-size: 1.3em;
 		line-height: 1.2em;
 		padding:  0 .5em .5em 1em;
-}
+	}
 	#perfil ul {
 		clear: both;
 		float: none;
@@ -103,4 +127,106 @@
 		font-size: 1.1em;
 		padding: 0 .5em 0 .5em;
 	}	
+}
+
+
+@media only screen and (min-width: 451px) and (max-width: 600px) {
+	.mobile-nav {
+		display: block;
+		position: fixed; top: 0; left: 0; right: 0;
+	}
+	nav {
+		display: none;
+	}
+	#keymessage {
+		padding: .5em .5em .5em .5em;
+		font-size: 2em;
+		line-height: 1.125;
+	}
+	h2{
+		font-size: 1.8em;
+	}
+	.quote1	 {
+		font-size: 1.2em;
+		line-height: 1.1em;
+		padding:  0 .5em .5em 1em;
+	}
+	#perfil ul {
+		clear: both;
+		float: none;
+		display: block;
+		list-style-type: disc;
+		width: 100%;
+		padding: 0 .5em 0 .5em;
+	}
+	#clases>div.quote {
+		clear: both; 
+		float: none;
+		width: 100%;
+		padding: 1em .5em 0 .5em;
+	}
+	div.cursos {
+		padding: 0em .5em 0 .5em;
+	}
+	#privadas>div.quote {
+		float: none;
+		width: 100%;
+		padding: 1em .5em 0 .5em;
+	}
+	#clases img {
+		float: none;
+		width: 100%;
+		padding: 0 .5em 0 .5em;		
+	}
+	.sectionpic {
+		float: none;
+		width: 100%;
+		padding: 0 .5em 0 .5em;
+	}
+
+	.quote2 {
+		float: none;
+		width: 100%;
+		font-size: 1.2em;
+		line-height: 1.1em;
+		padding: 0 .5em 0 .5em;
+	}
+	blockquote {
+		font-size: 1.2em;
+	}
+	cite {
+		font-size: 1.1em;
+	}
+	.callforcontact {
+		font-size: 1.1em;
+		padding: 0 .5em 0 .5em;
+	}	
+	#teaser div {
+		float: none;
+		width: auto;
+		padding: 0 2em 0 2em;
+		min-height: 18.5em;
+		position: relative;
+	}
+	#teaser img {
+		margin-top: 2.7em;
+	}
+	#teaser p.title {
+		font-size: 1.5em;
+	}
+	#teaser p {
+		margin: 0 auto;
+		text-align: center;
+		max-width: 60%;
+	}
+	.teaserpic {
+		max-width: 40%;
+		margin: 0;
+	}
+	.teaserlink {
+		font-size: 0.75em;
+		padding: .4em .1em;
+
+	}
+
 }
