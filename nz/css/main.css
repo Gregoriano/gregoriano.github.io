@@ -21,10 +21,6 @@ body {
 	width: 15%;
 }
 
-section {
-	padding-bottom: 3em;
-} 
-
 nav {
 	background: #000000;
 	float: right;
@@ -141,7 +137,7 @@ nav a:hover {
 }
 
 section{
-	margin-bottom: 5em;
+	margin: 0 0 5em 0;
 }
 footer {
 	margin-top: 2em;
@@ -268,7 +264,6 @@ blockquote {
 	font-style: italic;
 	line-height: 1.3em;
 	padding: 1em 1em .3em 1em;
-	position: relative;
 	text-align:justify;
 	float: left;
 	width: 80%;

@@ -56,7 +56,7 @@
 		font-size: 2.5em;
 	}
 	#teaser>div {
-		min-height: 28em;
+		min-height: 27em;
 		position: relative;
 	}
 	#teaser p.title{
@@ -64,13 +64,16 @@
 	}
 	#teaser p.byline{
 		position: absolute;
-		top: 19em;
+		top: 18em;
 	}
 	#teaser a.teaserlink {
 		position: absolute;
 		bottom: 0;	
 		left: 25%;
 		transform: translateX(-50%);
+	}
+	.teaserpic {
+		width: 75%;
 	}
 	.quote1	 {
 		font-size: 1.3em;
@@ -109,7 +112,6 @@
 		width: 100%;
 		padding: 0 .5em 0 .5em;
 	}
-
 	.quote2 {
 		float: none;
 		width: 100%;
@@ -130,7 +132,7 @@
 }
 
 
-@media only screen and (min-width: 1px) and (max-width: 600px) {
+@media only screen and (min-width: 481px) and (max-width: 600px) {
 	.mobile-nav {
 		display: block;
 		position: fixed; top: 0; left: 0; right: 0;
@@ -140,7 +142,7 @@
 	}
 	#keymessage {
 		padding: .5em .5em .5em .5em;
-		font-size: 2em;
+		font-size: 1.5em;
 		line-height: 1.125;
 	}
 	h2{
@@ -229,4 +231,195 @@
 
 	}
 
+	.testimonialpic {
+		border-radius: 50%;
+		width: 40%;
+		float: none;
+		display: block;
+		margin: 1em auto 0 auto;
+		padding: .5em;
+	}
+
+	.testimonial {
+		float: left;
+		width: 100%;
+		padding: 1em 2em;
+		margin: 1em 0 0 0;
+	}
+
+
+	blockquote {
+		font-size: 1.2em;
+		padding: 1em .5em .3em .5em;
+		text-align: justify;
+		float: none;
+		width: 100%;
+	}
+	cite {
+	color: #484848;
+	display: block;
+	float:right;
+	font-size: 1em;
+	font-weight: 100;
+	margin: .5em .5em 0 0;
 }
+
+}
+
+@media only screen and (min-width: 1px) and (max-width: 480px) {
+	.mobile-nav {
+		display: block;
+		position: fixed; top: 0; left: 0; right: 0;
+	}
+	nav {
+		display: none;
+	}
+
+	#keymessage {
+		padding: .5em .5em .5em .5em;
+		font-size: 1.6em;
+		line-height: 1.2;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+	#perfil img {
+		float: none;
+		width: 65%;
+		margin: 0 auto;
+	}
+
+
+	.quote1	 {
+		float: none;
+		width: 100%;
+		font-size: 1.2em;
+		line-height: 1.1em;
+		padding:  1em .5em .5em .5em;
+	}
+	#perfil ul {
+		clear: both;
+		float: none;
+		display: block;
+		list-style-type: disc;
+		width: 100%;
+		padding: 0 .5em 0 .5em;
+		margin: 4em 0 0 0 ;
+	}
+	#clases>div.quote {
+		clear: both; 
+		float: none;
+		width: 100%;
+		padding: 1em .5em 0 .5em;
+	}
+	div.cursos {
+		width: 100%;
+		padding: 0em .5em 0 .5em;
+	}
+	.cursos {
+	margin: 2em 0 0 0;
+	padding: 2em 0 0 0;
+	min-height: 22em;
+	position: relative;
+	}
+	#privadas>div.quote {
+		float: none;
+		width: 100%;
+		padding: 1em .5em 0 .5em;
+	}
+	#clases img {
+		float: none;
+		width: 100%;
+		padding: 0 .5em 0 .5em;		
+	}
+	.sectionpic {
+		float: none;
+		width: 100%;
+		padding: 0 .5em 0 .5em;
+	}
+
+	.quote2 {
+		float: none;
+		width: 100%;
+		font-size: 1.2em;
+		line-height: 1.1em;
+		padding:  1em .5em .5em .5em;
+	}
+
+
+/********* **********/
+
+
+
+/********* **********/
+
+	.testimonialpic {
+		border-radius: 50%;
+		width: 50%;
+		float: none;
+		display: block;
+		margin: 1em auto 0 auto;
+		padding: .5em;
+	}
+
+	.testimonial {
+		float: left;
+		width: 100%;
+		padding: 1em 2em;
+		margin: 1em 0 0 0;
+	}
+
+
+	blockquote {
+		font-size: 1.2em;
+		padding: 1em .5em .3em .5em;
+		text-align: justify;
+		float: none;
+		width: 100%;
+	}
+	cite {
+		color: #484848;
+		display: block;
+		float:right;
+		font-size: 1em;
+		font-weight: 100;
+		margin: .5em .5em 0 0;
+	}
+	.callforcontact {
+		font-size: 1.1em;
+		padding: 0 .5em 0 .5em;
+	}	
+	#teaser div {
+		float: none;
+		width: auto;
+		padding: 0 2em 0 2em;
+		min-height: 18.5em;
+		position: relative;
+	}
+	#teaser img {
+		margin-top: 2.7em;
+	}
+	#teaser p.title {
+		font-size: 1.5em;
+	}
+	#teaser p {
+		margin: 0 auto;
+		text-align: center;
+		max-width: 60%;
+	}
+	.teaserpic {
+		width: 35%;
+		margin: 0;
+	}
+	.teaserlink {
+		font-size: 0.75em;
+		padding: .4em .1em;
+	}
+
+	.teaserlink {
+	  	color: white;
+  		background-color: orange;
+		transition: none;
+	}
+}
+
