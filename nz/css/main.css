@@ -5,16 +5,15 @@ body {
 	color: #222;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
-	background-image: url("../images/.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin: 0 auto 0 auto;
-	max-width:60em;
-	
+	background-image: url("../images/fondo.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+	margin: 0 auto 0 auto;	
 }
 .container {
 	margin: 0 auto;
 	max-width: 1200px;
+	padding: 0 1em 0 1em;
 }
 #logo {
 	float: left;
@@ -48,7 +47,8 @@ nav a:hover {
 }
 
 #menu-btn {
-	float: right
+	float: right;
+	padding-right: 2em;
 }
 
 .responsive-menu ul {
@@ -56,6 +56,8 @@ nav a:hover {
 	background: orange;
 	margin: 1.5em 0 0 0;
 	padding: 1em 1em 1.5em 1em;
+	margin-right: -2em;
+
 }
 
 .responsive-menu a {
@@ -99,13 +101,14 @@ nav a:hover {
 
 
 #keymessage {
-	padding: .5em .5em .5em .5em;
+	padding: .5em 1.5em .5em 1.5em;
 	font-size: 3.5em;
 	text-align: center;
 	font-family: 'Quattrocento', serif;
 	line-height: 1.125;
+	color: white;
 }
-#teaser>div {
+.teaserunit {
 	float: left;
 	width: 33.3%;
 	padding: 1em 1em 0 1em;
@@ -114,30 +117,33 @@ nav a:hover {
 }
 #teaser img {
 	display: block;
+	width: 12em;
 	margin-top: 1.5em;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 50%;
 }
 .title {
+	color: white;
+	text-align: center;
 	margin: .5em 0 0 0;
 	font-size: 1.8em;
 	font-family: 'Quattrocento', serif;
 	line-height: 1.3em;
 }
 #teaser p {
+	color: white;
 	line-height: 1.3em;
+	text-align: center;
 }
 
 #teaser a.teaserlink {
 	position: absolute;
 	bottom: 0;	
-	left: 25%;
-	transform: translateX(-50%);
 }
 
 section{
-	margin: 0 0 5em 0;
+	padding: 2em 0 3em 0;
 }
 footer {
 	margin-top: 2em;
@@ -162,11 +168,14 @@ h3 {
   	color: #000000;
 	transition: .2s ease-out;
 	padding: .4em 1em;
-  	border: 1.5px solid #2a2a2a;
+  	border: 1.5px solid white;
+  	color: white;
   	display: inline-block;
   	display: block;
   	width: 50%;
   	margin: 1em auto 0 auto;
+  	left: 50%;
+	transform: translateX(-50%);
 }
 
 .teaserlink:hover {
@@ -177,12 +186,15 @@ h3 {
 
 /************** PERFIL *****************/
 
+#perfil {
+	background-color: white;
+	color: #222;
+}
 
 #perfil img {
 	float: left;
 	width: 33.33%;
 }
-
 .quote1	 {
 	float: left;
 	width: 66.66%;
@@ -190,7 +202,6 @@ h3 {
 	line-height: 1.2em;
 	padding:  0 0 0 1em;
 }
-
 #perfil ul {
 	width: 66.66%;
 	float: left;
@@ -205,7 +216,10 @@ li {
 }
 
 /************** CLASES *****************/
-
+#clases {
+	background-color: #c6003a;
+	color: white;
+}
 #clases div {
 	float: left;
 }
@@ -235,12 +249,15 @@ li {
 .cursos a.teaserlink {
 	position: absolute;
 	bottom: 0;	
-	left: 25%;
-	transform: translateX(-50%);
+
 }
 
 /************** CLASES PRIVADAS *****************/
 
+#privadas {
+	background-color: white;
+
+}
 .sectionpic {
 	display: inline;
 	float: left;
@@ -269,13 +286,23 @@ blockquote {
 	width: 80%;
 }
 
+#empresa blockquote {
+	color: white;
+}
+
 cite {
 	color: #484848;
 	display: inline;
-	float:right;
-	font-size: 1.25em;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	float: right;
+	font-size: 0.8em;
 	font-weight:100;
-	margin: .5em 1em 0em 0em;
+	margin: .5em 0 0 0;
+}
+
+#empresa cite {
+	color: white;
 }
 
 .testimonialblock {
@@ -306,12 +333,23 @@ cite {
 	width: 80%;
 }
 
+#empresa {
+	background-color: orange;
+	color: white;
+} 
+
+
 /************** CONTACTO *****************/
 
+#contacto {
+	background-color: none;
+	color: white;
+}
 .callforcontact {
 	font-size: 1.5em	
 }
 .callforcontact a .teaserlink {
+  	clear: both;
   	text-align: center;
 	position: absolute;
 	bottom: 0;
@@ -334,10 +372,8 @@ cite {
 	color: white;
 	background-color: orange;
 }
-
-
 footer p {
-	text-align: center:
+	text-align: center;
 }
 
 .clearfix:after {
