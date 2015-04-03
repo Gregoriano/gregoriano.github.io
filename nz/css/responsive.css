@@ -423,7 +423,6 @@
 
 	.teaserlink {
 	  	color: white;
-  		background-color: orange;
 		transition: none;
 	}
 	.teaserlink:hover:target {

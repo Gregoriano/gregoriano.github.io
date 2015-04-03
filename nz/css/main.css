@@ -5,7 +5,7 @@ body {
 	color: #222;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
-	background-image: url("../images/fondo.jpg");
+	background-image: url("../images/fondo2.jpg");
 	background-size: 100%;
 	background-repeat: repeat;
 	margin: 0 auto 0 auto;	
@@ -104,7 +104,7 @@ nav a:hover {
 	padding: .5em 1.5em .5em 1.5em;
 	font-size: 3.5em;
 	text-align: center;
-	font-family: 'Quattrocento', serif;
+	font-family: 'Cardo', serif;
 	line-height: 1.125;
 	color: white;
 }
@@ -128,7 +128,7 @@ nav a:hover {
 	text-align: center;
 	margin: .5em 0 0 0;
 	font-size: 1.8em;
-	font-family: 'Quattrocento', serif;
+	font-family: 'Cardo', serif;
 	line-height: 1.3em;
 }
 #teaser p {
@@ -151,7 +151,7 @@ footer {
 h2{
 	font-size: 3em;
 	font-style: italic;
-	font-family: 'Quattrocento', serif;
+	font-family: 'Cardo', serif;
 	line-height: 1.3em;
 }
 h3 {
@@ -203,43 +203,47 @@ h3 {
 	padding:  0 0 0 1em;
 }
 #perfil ul {
-	width: 66.66%;
+	width: 50%;
 	float: left;
 	line-height: 1.3em;
 	list-style-type: disc;
-	margin: 1.7em 0 0 0;
-	padding: 0 0 0 2.7em;
+	padding: 1.7em 0 0 2.7em;
 }
 li {
 	line-height: 1.3em;
 	margin-top: 1em
 }
 
+#perfil img.logos {
+	padding: 2.5em 0 0 0;
+	width: 8em;
+	display: inline;
+}
+
+
 /************** CLASES *****************/
 #clases {
 	background-color: #c6003a;
 	color: white;
-}
-#clases div {
-	float: left;
 }
 #clases h2 {
 	line-height: 1.3em;
 }
 #clases img {
 	float: left;
-	width: 66.66%;
+	width: 45%;
 }
-#clases>div.quote {
+#clases>div.quote2 {
 	float: left;
-	width: 33.33%;
+	width: 50%;
+	clear: both;
 } 
 #clases p {
 	line-height: 1.3em;
 	margin-top: .4em
 }
 .cursos {
-	margin: 2em 0 0 0;
+	float: left;
 	padding: 2em 0 0 0;
 	width: 50%;
 	min-height: 25em;
@@ -261,11 +265,11 @@ li {
 .sectionpic {
 	display: inline;
 	float: left;
-	width: 66.66%;
+	width: 50%;
 }
 .quote2 {
 	float: left;
-	width: 33.33%;
+	width: 50%;
 	font-size: 1.5em;
 	line-height: 1.2em;
 	padding:  0 0 0 1em;
