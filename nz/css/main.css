@@ -248,11 +248,11 @@ li {
 #clases>div.quote2 {
 	float: left;
 	width: 50%;
+	padding: 0 0 0 1em;
 } 
 .quote2 {
 	font-size: 1.3em;
 	line-height: 1.2em;
-	padding: 0 0 0 0em;
 	margin: 0 0 0 1em;
 } 
 #clases p {
@@ -283,6 +283,10 @@ iframe {
 	background-color: white;
 	padding: 0.5em 0 3em 0;
 }
+#privadas>div.quote2 {
+	float: left;
+	width: 50%;
+} 
 .sectionpic {
 	display: inline;
 	float: left;
@@ -346,7 +350,11 @@ cite {
 	color: white;
 	padding: 0.5em 0 3em 0;
 }
-
+#empresa>div.quote2 {
+	float: left;
+	width: 50%;
+	padding: 0 0 0 1em;
+} 
 /************** CONTACTO *****************/
 
 #contacto {
