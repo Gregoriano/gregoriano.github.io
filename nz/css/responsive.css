@@ -51,21 +51,25 @@
 	nav {
 		display: none;
 	}
-/************** NEW experiment *****************/
+/************** NEWYORKER *****************/
 	#logo {
-		float: none;
-		display: inline;
+		float: left;
+		display: block;
+		font-size: 2em;
 		padding: .3em 0 0 0;
 		color: black;
 		margin: 0 auto;
 	}
-	header.newyorker {
+	header {
 		position: fixed;
 		background-color: white;
+		top: 0;
 		z-index: 100;
 		-webkit-box-shadow: 0px 0px 8px 0px #000000;
 		-moz-box-shadow: 0px 0px 8px 0px #000000;
 		box-shadow: 0px 0px 8px 0px #000000;
+		left: 0;
+		right: 0;
 	}
 /************** NEW 801 -> 900 *****************/
 	#perfil p {
@@ -107,21 +111,25 @@
 	nav {
 		display: none;
 	}
-/************** NEW experiment *****************/
+/************** NEWYORKER *****************/
 	#logo {
-		float: none;
-		display: inline;
+		float: left;
+		display: block;
+		font-size: 2em;
 		padding: .3em 0 0 0;
 		color: black;
 		margin: 0 auto;
 	}
-	header.newyorker {
+	header {
 		position: fixed;
 		background-color: white;
+		top: 0;
 		z-index: 100;
 		-webkit-box-shadow: 0px 0px 8px 0px #000000;
 		-moz-box-shadow: 0px 0px 8px 0px #000000;
 		box-shadow: 0px 0px 8px 0px #000000;
+		left: 0;
+		right: 0;
 	}
 /************** NEW 801 -> 900 *****************/
 	#perfil p {
@@ -180,21 +188,25 @@
 	nav {
 		display: none;
 	}
-/************** NEW experiment *****************/
+/************** NEWYORKER *****************/
 	#logo {
-		float: none;
-		display: inline;
+		float: left;
+		display: block;
+		font-size: 2em;
 		padding: .3em 0 0 0;
 		color: black;
 		margin: 0 auto;
 	}
-	header.newyorker {
+	header {
 		position: fixed;
 		background-color: white;
+		top: 0;
 		z-index: 100;
 		-webkit-box-shadow: 0px 0px 8px 0px #000000;
 		-moz-box-shadow: 0px 0px 8px 0px #000000;
 		box-shadow: 0px 0px 8px 0px #000000;
+		left: 0;
+		right: 0;
 	}
 /************** NEW 801 -> 900 *****************/
 	#perfil p {
@@ -254,21 +266,25 @@
 	nav {
 		display: none;
 	}
-/************** NEW experiment *****************/
+/************** NEWYORKER *****************/
 	#logo {
-		float: none;
-		display: inline;
+		float: left;
+		display: block;
+		font-size: 2em;
 		padding: .3em 0 0 0;
 		color: black;
 		margin: 0 auto;
 	}
-	header.newyorker {
+	header {
 		position: fixed;
 		background-color: white;
+		top: 0;
 		z-index: 100;
 		-webkit-box-shadow: 0px 0px 8px 0px #000000;
 		-moz-box-shadow: 0px 0px 8px 0px #000000;
 		box-shadow: 0px 0px 8px 0px #000000;
+		left: 0;
+		right: 0;
 	}
 /************** NEW 801 -> 900 *****************/
 	#perfil p {
@@ -327,6 +343,29 @@
 
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
+	
+	/************** NEWYORKER *****************/
+	#logo {
+		float: left;
+		display: block;
+		font-size: 2em;
+		padding: .3em 0 0 0;
+		color: black;
+		margin: 0 auto;
+	}
+	header {
+		position: fixed;
+		background-color: white;
+		top: 0;
+		z-index: 100;
+		-webkit-box-shadow: 0px 0px 8px 0px #000000;
+		-moz-box-shadow: 0px 0px 8px 0px #000000;
+		box-shadow: 0px 0px 8px 0px #000000;
+		left: 0;
+		right: 0;
+	}
+
+
 	.mobile-nav {
 		display: block;
 		position: fixed; top: 0; left: 0; right: 0;
@@ -463,6 +502,28 @@
 }
 
 @media only screen and (min-width: 1px) and (max-width: 480px) {
+	
+/************** NEWYORKER *****************/
+	#logo {
+		float: left;
+		display: block;
+		font-size: 2em;
+		padding: .3em 0 0 0;
+		color: black;
+		margin: 0 auto;
+	}
+	header {
+		position: fixed;
+		background-color: white;
+		top: 0;
+		z-index: 100;
+		-webkit-box-shadow: 0px 0px 8px 0px #000000;
+		-moz-box-shadow: 0px 0px 8px 0px #000000;
+		box-shadow: 0px 0px 8px 0px #000000;
+		left: 0;
+		right: 0;
+	}
+
 	.mobile-nav {
 		display: block;
 		position: fixed; top: 0; left: 0; right: 0;
