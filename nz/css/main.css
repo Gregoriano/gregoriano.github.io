@@ -167,6 +167,8 @@ footer {
   	border: 1.5px solid white;	
 }
 .teaserlink {
+	position: absolute;
+	bottom: 1.5em;
   	text-align: center;
   	text-decoration: none;
   	text-transform: uppercase;
@@ -180,7 +182,11 @@ footer {
   	width: 50%;
   	margin: 1em auto 0 auto;
   	left: 50%;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 .teaserlink:hover {
 	color: white;
@@ -358,15 +364,23 @@ p.callforcontact {
 	font-size: 1.3em;
 	line-height: 1.25em; 	
 }
-#contacto a.teaserlink {
+.contactlink {
   	clear: both;
-	color: white;
-	border: 1.5px solid white;
 	margin: 1.5em auto 0 auto;
 	left: 0;
 	transform: translateX(0%);
 	font-size: 0.8em;
 	width: 35%;
+	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	letter-spacing: 0.1em;
+  	color: white;
+	transition: .2s ease-out;
+	padding: .5em 1em 0.4em 1em;
+  	border: 1.5px solid white;
+  	display: block;
+  	width: 50%;
   }
 #contacto a:hover{
 	color: white;
